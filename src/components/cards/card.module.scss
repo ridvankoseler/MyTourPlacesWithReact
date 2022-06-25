@@ -1,0 +1,61 @@
+@import '../../scss/reset','../../scss/variables';
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 1rem;
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $Night1;
+        width: 25rem;
+        border-radius: 1rem;
+        padding: 0.5rem 0.5rem 1rem;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        
+        &:hover img{
+            filter:grayscale(100%)
+        }
+        &:hover p{
+            transform: translateY(0%);
+        }
+        h2{
+            color:greenyellow;
+            padding-bottom: 0.5rem
+
+        }
+        
+        img{
+        border-radius: 1rem;
+        width: 90%;
+        height: 300px;
+        object-fit: cover;
+        transition: all 1s;
+        
+        }
+        p{
+            position: absolute;
+            
+            // left: 0;
+            bottom: 0;
+            transform: translateY(100%);
+            z-index: 1;
+            transition: all 1s;
+            color: $light-pink1;
+            width: 86%;
+            background-color: rgba(0,0,0,0.7);
+            margin: 0rem 1rem 1rem;
+            padding: .5rem;
+            margin: auto;
+            // display: none;
+        }
+    }
+    
+}

@@ -1,0 +1,30 @@
+@import '../../scss/reset','../../scss/variables';
+
+.navbarDiv{
+    background-color: $Night5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+
+        li{
+            list-style-type: none;
+            color: $Night3;
+            font-size: 1.2rem;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 1rem;
+
+            &:hover{
+            background-color: $light-blue;
+            color: black;
+        }
+        }
+        
+    }
+}
