@@ -12,3 +12,6 @@ I used these in this project<br>
 👉<b>CSS3</b><br>
 👉<b>Extracting data from DATA.JS with API</b><br>
 👉<b>Sass</b>
+
+
+![](Animation.gif)
