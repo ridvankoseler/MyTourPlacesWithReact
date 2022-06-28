@@ -9,6 +9,6 @@ I used these in this project<br>
 👉import/export,<br>
 👉Destructuring props,<br>
 👉array <b>map</b> methods,<br>
-👉<b>CSS3</b>
-👉<b>Extracting data from DATA.JS with API</b>
+👉<b>CSS3</b><br>
+👉<b>Extracting data from DATA.JS with API</b><br>
 👉<b>Sass</b>
